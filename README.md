@@ -3,46 +3,37 @@
  Discord: [![Discord Server](https://img.shields.io/discord/672055862608658432.svg)](https://discord.gg/hZRB7WMgGw)
  
 
-Information from [wikipedia](https://wikipedia.org/wiki/Source_(game_engine)):
 
-Source is a 3D game engine developed by Valve.
-It debuted as the successor to GoldSrc with Half-Life: Source in June 2004,
-followed by Counter-Strike: Source and Half-Life 2 later that year.
-Source does not have a concise version numbering scheme; instead, it was released in incremental versions
+Información de wikipedia :
 
-Source code is based on TF2 2018 leak. Don't use it for commercial purposes.
+Source es un motor de juegos 3D desarrollado por Valve. Debutó como sucesor de GoldSrc con Half-Life: Source en junio de 2004, seguido de Counter-Strike: Source y Half-Life 2 ese mismo año. La fuente no tiene un esquema de numeración de versiones conciso; en cambio, se lanzó en versiones incrementales.
 
-This project is using waf buildsystem. If you have waf-related questions look https://waf.io/book
+El código fuente se basa en la filtración de TF2 2018. No lo utilices con fines comerciales.
 
-# Features:
-- Android, OSX, FreeBSD, Windows, Linux( glibc, musl ) support
-- Arm support( except windows )
-- 64bit support
-- Modern toolchains support
-- Fixed many undefined behaviours
-- Touch support( even on windows/linux/osx )
-- VTF 7.5 support
-- PBR support
-- bsp v19-v21 support( bsp v21 support is partial, portal 2 and csgo maps works fine )
-- mdl v46-49 support
-- Removed useless/unnecessary dependencies
-- Achivement system working without steam
-- Fixed many bugs
-- Serverbrowser works without steam
+Este proyecto utiliza waf buildsystem. Si tiene preguntas relacionadas con waf, consulte https://waf.io/book
 
-# Current tasks
-- Rewrite materialsystem for OpenGL render
-- dxvk-native support
-- Elbrus port
-- Bink audio support( for video_bink )
+Características:
+Compatibilidad con Android, OSX, FreeBSD, Windows, Linux (glibc, musl)
+Soporte para brazos (excepto ventanas)
+soporte de 64 bits
+Soporte de cadenas de herramientas modernas
+Se corrigieron muchos comportamientos indefinidos.
+Soporte táctil (incluso en Windows/Linux/OSX)
+Soporte VTF 7.5
+soporte PBR
+Compatibilidad con bsp v19-v21 (la compatibilidad con bsp v21 es parcial, portal 2 y mapas csgo funcionan bien)
+soporte mdl v46-49
+Se eliminaron dependencias inútiles/innecesarias.
+Sistema de logros que funciona sin vapor.
+Se corrigieron muchos errores
+El navegador de servidores funciona sin Steam
+Tareas actuales
+Reescribir materialsystem para renderizado OpenGL
+soporte nativo de dxvk
+Puerto de Elbrús
+Soporte de audio Bink (para video_bink)
+¿Cómo construir?
+# ¿Cómo construir Build?
+- [Instrucciones de construcción(EN))](https://github.com/nillerusr/source-engine/wiki/Source-Engine-(EN))
+- [Instrucciones de construcción (RU)](https://github.com/nillerusr/source-engine/wiki/Source-Engine-(RU))
 
-# How to Build?
-- [Building instructions(EN)](https://github.com/nillerusr/source-engine/wiki/Source-Engine-(EN))
-- [Building instructions(RU)](https://github.com/nillerusr/source-engine/wiki/Source-Engine-(RU))
-
-# Support me
-BTC: `bc1qnjq92jj9uqjtafcx2zvnwd48q89hgtd6w8a6na`
-
-ETH: `0x5d0D561146Ed758D266E59B56e85Af0b03ABAF46`
-
-XMR: `48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4itsGh6EzNTzBty6ZDDevApCFNpsJ`
